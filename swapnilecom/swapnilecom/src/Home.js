@@ -1,12 +1,11 @@
 import React from "react";
-import styled from "styled-components";
-const Home = () => {
-  return <Wrapper className="test">Home</Wrapper>;
-};
+import HeaderSection from "./components/HeaderSection";
 
-const Wrapper = styled.section`
-  height: 100vh;
-  background-color: ${({ theme }) => theme.colors.bg};
-`;
+const Home = () => {
+    const data = {
+        name:"swapnil store",
+    }
+ return <HeaderSection data={data} />;
+};
 
 export default Home;

@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import HeaderSection from "./components/HeaderSection";
 
 const About = () => {
-  return (
-    <div>About</div>
-  )
+  const data = {
+    name:"swapnil ecommerce",
 }
+  return <HeaderSection data = {data} />;
+};
 
-export default About
+export default About;
