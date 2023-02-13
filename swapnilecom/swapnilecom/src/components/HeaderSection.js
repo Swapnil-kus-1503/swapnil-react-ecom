@@ -9,7 +9,7 @@ const HeaderSection = ({data}) => {
         <div className="grid grid-two-column">
           <div className="hero-section-data">
             <p className="intro-data">Welcome to</p>
-            <h1>{data.name}</h1>
+            <h2>{data.name}</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
               esse beatae quidem necessitatibus velit molestiae unde iusto
@@ -47,7 +47,7 @@ const Wrapper = styled.section`
     p {
       margin: 2rem 0;
     }
-    h1 {
+    h2 {
       text-transform: capitalize;
       font-weight: bold;
     }
