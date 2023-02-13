@@ -1,4 +1,5 @@
 import React from "react";
+import FeatureProduct from "./components/FeatureProduct";
 import HeaderSection from "./components/HeaderSection";
 import Services from "./components/Services";
 import Trusted from "./components/Trusted";
@@ -9,6 +10,7 @@ const Home = () => {
   return (
     <>
       <HeaderSection data={data} />
+      <FeatureProduct />
       <Services />
       <Trusted />
     </>
